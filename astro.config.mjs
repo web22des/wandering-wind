@@ -7,7 +7,7 @@ const isGHPages = process.env.GITHUB_ACTIONS === "true"; // Автоопреде
 
 export default defineConfig({
     site: "https://web22des.github.io",
-    base: isDev || isPreview || !isGHPages ? "/" : "/astro-test-5/",
+    base: isDev || isPreview || !isGHPages ? "/" : "/wandering-wind/",
     trailingSlash: "always",
     output: "static", // Явно указываем статический режим
 });
